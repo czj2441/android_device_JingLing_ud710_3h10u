@@ -20,6 +20,6 @@ PRODUCT_MAKEFILES := \
      $(LOCAL_DIR)/twrp_ud710_3h10u.mk
      
 COMMON_LUNCH_CHOICES := \
-    omni_JingPadC1-user \
-    omni_JingPadC1-userdebug \
-    omni_JingPadC1-eng
+    twrp_ud710_3h10u-user \
+    twrp_ud710_3h10u-userdebug \
+    twrp_ud710_3h10u-eng
