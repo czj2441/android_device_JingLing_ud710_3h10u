@@ -17,9 +17,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-     $(LOCAL_DIR)/twrp_ud710_3h10u.mk
+     $(LOCAL_DIR)/twrp_JingPadC1.mk
      
 COMMON_LUNCH_CHOICES := \
-    twrp_ud710_3h10u-user \
-    twrp_ud710_3h10u-userdebug \
-    twrp_ud710_3h10u-eng
+    twrp_JingPadC1-user \
+    twrp_JingPadC1-userdebug \
+    twrp_JingPadC1-eng

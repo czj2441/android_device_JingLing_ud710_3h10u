@@ -16,7 +16,7 @@
 # limitations under the License.
 #
 
-LOCAL_PATH := device/JingLing/ud710_3h10u
+LOCAL_PATH := device/JingLing/JingPadC1
 
 PRODUCT_SHIPPING_API_LEVEL := 29
 

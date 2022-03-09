@@ -16,7 +16,7 @@
 # limitations under the License.
 #
 
-DEVICE_PATH := device/JingLing/ud710_3h10u
+DEVICE_PATH := device/JingLing/JingPadC1
 
 # For building with minimal manifest
 ALLOW_MISSING_DEPENDENCIES := true
@@ -37,7 +37,7 @@ TARGET_BOARD_SUFFIX := _64
 TARGET_USES_64_BIT_BINDER := true
 
 # Assert
-TARGET_OTA_ASSERT_DEVICE := ud710_3h10u
+TARGET_OTA_ASSERT_DEVICE := JingPadC1
 
 # File systems
 BOARD_HAS_LARGE_FILESYSTEM := true
@@ -68,8 +68,8 @@ BOARD_MKBOOTIMG_ARGS += --header_version $(BOARD_BOOTIMG_HEADER_VERSION)
 BOARD_KERNEL_IMAGE_NAME := Image.gz
 TARGET_KERNEL_ARCH := arm64
 TARGET_KERNEL_HEADER_ARCH := arm64
-TARGET_KERNEL_SOURCE := kernel/JingLing/ud710_3h10u
-TARGET_KERNEL_CONFIG := ud710_3h10u_defconfig
+TARGET_KERNEL_SOURCE := kernel/JingLing/JingPadC1
+TARGET_KERNEL_CONFIG := JingPadC1_defconfig
 
 # Platform
 TARGET_BOARD_PLATFORM := ud710
@@ -125,7 +125,7 @@ BOARD_HAS_NO_SELECT_BUTTON := true
 BOARD_SUPPRESS_SECURE_ERASE := true
 
 # Bootloader
-TARGET_BOOTLOADER_BOARD_NAME := ud710_3h10u
+TARGET_BOOTLOADER_BOARD_NAME := JingPadC1
 TARGET_NO_BOOTLOADER := true
 
 # Partitions

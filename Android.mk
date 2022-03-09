@@ -18,6 +18,6 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifeq ($(TARGET_DEVICE), ud710_3h10u)
+ifeq ($(TARGET_DEVICE), JingPadC1)
 include $(call all-subdir-makefiles,$(LOCAL_PATH))
 endif
