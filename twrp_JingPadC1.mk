@@ -30,9 +30,15 @@ $(call inherit-product, vendor/twrp/config/common.mk)
 #$(call inherit-product, vendor/omni/config/gsm.mk)
 
 # Device identifier. This must come after all inclusions
+<<<<<<< HEAD:twrp_JingPadC1.mk
 PRODUCT_DEVICE := JingPadC1
 PRODUCT_NAME := twrp_JingPadC1
 PRODUCT_BRAND := JingPad
+=======
+PRODUCT_DEVICE := ud710_3h10u
+PRODUCT_NAME := twrp_ud710_3h10u
+PRODUCT_BRAND := JingLing
+>>>>>>> d5fdc4a3c4467b1b90232adf75bd0a1fada6fe55:twrp_ud710_3h10u.mk
 PRODUCT_MODEL := JingPad
 PRODUCT_MANUFACTURER := JingLing
 PRODUCT_RELEASE_NAME := JingPad JingPad
